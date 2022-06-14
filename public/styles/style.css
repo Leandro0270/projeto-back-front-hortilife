@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+} 
+
+
+body, html{
+    position: relative;
+    padding-bottom: 50px;
+}
+
+
+.card p{
+    padding-top: 10px;
+    font-family: 'League Spartan', sans-serif;    
+}
+
+.card{
+    background-color: #F08C0A;
+    padding: 20px;
+    margin: 30px 10px 30px 10px;
+    min-width: 220px;
+    height: 230px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    font-size: 1.8em;
+}
+
+.pencil{
+    padding-top: 12px;
+    max-width: 30px;
+    max-height: 30px;
+    cursor:pointer;
+}
+
+.trash{
+    padding-top: 12px;
+    max-width: 30px;
+    max-height: 30px;
+    cursor:pointer;
+}
+
+.url{
+    flex-wrap: wrap;
+    display: inline-flex;
+    align-self: flex-end;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#elementos{
+    margin-top: 5px;
+}
+
+header{
+    background-color: #F08C0A ;
+    padding: 1.8vw;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.barra{
+    width: 400px;
+	height: 55px;
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.barra > i {
+	font-size: 22px;
+	color: #F08C0A;
+}
+
+#pesquisa{
+    flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 23px;
+	padding-left: 20px;
+}
+
+#meu-submit{
+    padding: 2vw;
+    border-radius: 20%;
+}
+
+#plus{
+    display: flex;
+    justify-content: center;
+}
+
+#plus img{
+    max-width: 80px;
+    max-height: 80px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #F08C0A;   
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px 0 20px 0;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+}
+    
+footer img{
+    width:8%;
+    height: 8%;
+}
