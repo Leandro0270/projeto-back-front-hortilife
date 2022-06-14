@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Desenvolvido por: Patricia Sycko (42126460) e Leandro Silva (42127882)">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HortiLife</title>
+    <link rel="icon" href="./images/faviicon.png">
+</head>
+<body>
+    <header>
+        <div class="barra">
+            <i class="fa fa-search" onclick="procurarProduto()" aria-hidden="true" ></i>
+            <input type="text" id="pesquisa" placeholder="Digite o nome do produto"/>
+        </div>
+    </header>
+    <article>
+        <div id="start">
+            <div id="elementos">
+            </div>
+        </div>
+        <div id="plus">
+            <a href="add.html" onclick="localStorage.clear()"> <img src="./images/Plus_icon.png"></a>
+        </div>
+    </article>
+    <footer>
+        <img src="./images/c2022.png">
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+</html>

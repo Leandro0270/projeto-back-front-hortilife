@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Desenvolvido por: Patricia Sycko (42126460) e Leandro Silva (42127882)">
+    <link rel="stylesheet" href="./styles/add.css" type="text/css">
+    <title>HortiLife</title>
+    <link rel="icon" href="./images/faviicon.png">
+</head>
+<body>
+    <header>
+        <a href="index.html"> <img src="./images/return.png" onclick=" localStorage.clear()"></a>
+    </header>
+    <article>
+        <div class="card">
+            <h1>Adicionar item</h1>
+            <h2>Preencha todos os campos para adicionar</h2>
+            <form>
+                <label>Produto
+                <input type="text" id="produto" name="name" size="20" required/>
+                </label>
+                <label>Preço
+                <input type="number" id="preco" required />
+                </label>
+                <label>Validade
+                <input style="font-size: 24px;" type="date" placeholder="dd-mm-yyyy" id="validade" required/>
+                </label>
+                <label> Fornecedor
+                <input type="text" id="fornecedor" required/>
+                </label> 
+                <label>URL da imagem
+                <input type="text" id="url" />
+                <button type="submit" id="meu-submit" value="Criar" onclick="enviar()">Criar</button>
+                </label>
+            </form>
+        </div>
+    </article>
+    <footer>
+        <img src="./images/c2022.png">
+    </footer>
+    <script src="./script/add.js"></script>
+</body>
